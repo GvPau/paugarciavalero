@@ -1,0 +1,135 @@
+
+#efecte{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.loader{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, transparent, transparent 40%, #e5f403);
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+    0%
+    {
+        transform: rotate(0deg);
+        filter: hue-rotate(0deg);
+
+    }
+    100%
+    {
+        transform: rotate(360deg);
+        filter: hue-rotate(360deg);
+        
+    }
+}
+
+.loader:before{
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    right: 1px;
+    bottom: 1px;
+    background: black;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.loader:after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: linear-gradient(45deg, transparent, transparent 40%, #e5f403);
+    border-radius: 50%;
+    z-index: 1000;
+    z-index: 1;
+    filter: blur(30);
+}
+
+#button{
+    position: relative;
+    display: inline-block;
+    padding: 7px 10px;
+    color: #9fdee9;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 12px;
+    overflow: hidden;
+    transition: 0.2s;
+  }
+
+#button:hover{
+    color: black;
+}
+
+#button:hover{
+    color: black;
+    background: #62daff;
+    box-shadow: 0 0 10px #62daff, 0 0 40px #62daff, 0 0 80px #62daff;
+    transition-delay: 1s;
+  }
+  #button span{
+    position: absolute;
+    display: block;
+  }
+  #button span:nth-child(1)  {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#62daff);
+  }
+  #button:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+  }
+  #button span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#62daff);
+  }
+  #button:hover span:nth-child(3) {
+    left: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+  }
+  #button span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#62daff);
+  }
+  #button:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+  }
+
+  #button span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#62daff);
+  }
+  #button:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+  }
+

@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  font-family: Poppins; 
+  scroll-behavior: smooth;
+}
+
+body{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+#nombre{
+    color: white;
+    padding-left: 30px;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    position: sticky;
+    height: 60px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex; 
+    padding-right: 50px;
+}
+
+li a{
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+ }
+
+
+
+ #sectioninici{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+    overflow:hidden;
+    position:relative;
+    z-index: 1;
+ }
+
+ #contentinici{
+    color:white;
+    position:absolute;
+    z-index:1;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 600px;
+    width: 100%;
+ }
+
+ #canvastext{
+   color: white;
+ }
+ 
+
+ #canvas{
+    z-index:0;
+    background:#010222;
+ }
+
+
+ #titolsobremi{
+     padding-top: 60px;
+     width: auto;
+     height: 75px;
+     justify-content: center;
+     text-align: center;
+ }
+
+ #skillssobremi{
+    display: flex;
+    flex-direction: row;
+    color: white;
+ }
+
+ #descipcio{
+    display: flex;
+    flex-direction: column;
+ }
+
+ #psobremi{
+     color: white;
+     padding-left: 40px;
+ }
+
+ #gradient{
+    background: linear-gradient(-70deg, #E73C7E, #23A)
+}
+
+footer {
+    background-color: #f9faff;
+    display: flex;
+    justify-content: center;
+}
+  
+.explicacio{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+}
+
+.habilitats{
+    color: black;
+
+}
+
+#fotodemi{
+    padding-bottom: 50px;
+    margin-left: 5pc;
+
+}
+
+#quisoc{
+    padding-left: 450px;
+}
+
+#lenguajes{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5pc;
+    justify-content: space-around
+}
+
+.photo{
+    width: 58px;
+    height: 58px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+#texthab{
+    margin-left: 230px;
+}
+
+#projectes{
+    background-color: #c3c7d8;
+    padding-left: 50px;
+    padding-right: 150px;
+}
+
+
+#titolprojectes{    
+    text-align: center;
+}
+
+.assignatura{
+    text-decoration: underline;
+}
+
+#hobbies{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.espai{
+    width: auto;
+    height: 50px;
+}
+
+#basket{
+    padding-left: 100px;
+}
+
+#texthobbies{
+    padding-left: 50px;
+}
+
+#claus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.musica{
+    width: 58px;
+    height: 58px;
+}
+
+.cv{
+    background-color: #343435;
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#cvtext{
+    color: #9fdee9;
+}
