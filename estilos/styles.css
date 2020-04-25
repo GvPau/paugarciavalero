@@ -17,7 +17,7 @@ main{
 }
 
 #nombre{
-    color: white;
+    color: white;    
     padding-left: 30px;
 }
 
@@ -30,15 +30,17 @@ header {
     top: 0px;
     position: sticky;
     height: 60px;
+    z-index: 10;
 }
 
-ul {
+#navul {
     list-style-type: none;
     display: flex; 
     padding-right: 50px;
+    padding-top: 10px;
 }
 
-li a{
+.navli a{
     padding: 5px 10px;
     color: white;
     text-decoration: none;
@@ -72,16 +74,6 @@ li a{
     width: 100%;
  }
 
- #canvastext{
-   color: white;
- }
- 
-
- #canvas{
-    z-index:0;
-    background:#010222;
- }
-
 
  #titolsobremi{
      padding-top: 60px;
@@ -108,7 +100,7 @@ li a{
  }
 
  #gradient{
-    background: linear-gradient(-70deg, #E73C7E, #23A)
+    background: linear-gradient(-70deg, #9fdee9, rgb(11, 3, 87))
 }
 
 footer {
@@ -125,7 +117,10 @@ footer {
 
 .habilitats{
     color: black;
-
+    display: grid;
+    grid-template-rows: 50% 50%;
+    row-gap: 3ch;
+    z-index: 3;
 }
 
 #fotodemi{
@@ -135,13 +130,12 @@ footer {
 }
 
 #quisoc{
-    padding-left: 450px;
+    text-align: center;
 }
 
 #lenguajes{
     display: flex;
     flex-direction: row;
-    margin-left: 5pc;
     justify-content: space-around
 }
 
@@ -155,13 +149,15 @@ footer {
 }
 
 #texthab{
-    margin-left: 230px;
+    text-align: center;
 }
 
-#projectes{
-    background-color: #c3c7d8;
+
+
+ul{
+    list-style-type: circle;
     padding-left: 50px;
-    padding-right: 150px;
+    padding-bottom: 20px;
 }
 
 
@@ -169,8 +165,8 @@ footer {
     text-align: center;
 }
 
-.assignatura{
-    text-decoration: underline;
+#refprojectes{
+    background-color: #f7f7f7;
 }
 
 #hobbies{

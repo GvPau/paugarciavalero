@@ -1,0 +1,141 @@
+@media screen and (max-width: 1050px){
+    #skillssobremi{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #fotodemi{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        height: 450px;
+        
+    }
+   
+    #texthab{
+        text-align: center;   
+    }
+
+    #hobbies{
+        display: flex;
+        flex-direction: column;
+        column-gap: 2ch;
+    }
+
+    #basket{
+        display: block;           
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 20px;
+        }
+
+}
+
+
+@media screen and (max-width: 690px){
+    .slide-content h2{
+        font-size: 17px;   
+    }
+
+    .slide-content p{
+        font-size: 13px;   
+    }
+}
+
+
+
+@media screen and (max-width: 630px){
+    #nombre {
+        font-size: 20px;   
+    }
+
+    #texthab{
+        text-align: center;
+    }
+   
+   #lenguajes{
+       height: 100px;
+       justify-content: center;
+   }
+
+}
+
+
+@media screen and (max-width: 600px){
+    #nombre {
+        font-size: 17px;
+    }
+
+    .slide-content h2{
+        font-size: 14px;   
+    }
+
+    .slide-content p{
+        font-size: 10px;   
+    }
+
+
+}
+
+
+@media screen and (max-width: 490px){
+    #nombre {
+        font-size: 12px;
+    }
+
+    .navli a{
+        font-size: 12px;
+    }
+
+    #texthab{
+        font-size: 17px;
+    }
+   
+    .photo{
+        height: 40px;
+        width: 40px;
+    }
+  
+    .habilitats{
+        row-gap: 5px;
+
+    }
+
+    #basket{
+        height: 100px;
+        width: 250px;
+    }
+
+    #fotodemi{
+        width: 250px;
+        height: 350px;
+    }
+
+    .slide-content h2{
+        font-size: 12px;   
+    }
+
+    .slide-content p{
+        font-size: 8px;   
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .slide-content h2{
+        font-size: 10px;   
+    }
+
+    .slide-content p{
+        font-size: 6px;   
+    }
+
+    #basket{
+        padding-left: 50px;
+    }
+
+
+}
+
+
